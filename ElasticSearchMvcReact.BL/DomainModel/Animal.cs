@@ -18,12 +18,12 @@ namespace ElasticSearchMvcReact.BL.DomainModel
 
         [FieldType(fieldType =FieldTypes._string)]
         [Analyzer(analyzerType =AnalyzerTypes.Standard)]
-        [Suggest]
+        [TermSuggest]
         public string Description { get; set; }
 
         [FieldType(fieldType = FieldTypes._string)]
         [Analyzer(analyzerType = AnalyzerTypes.Standard)]
-        [Suggest]
+        [TermSuggest]
         public string Gender { get; set; }
 
         [FieldType(fieldType = FieldTypes._string)]

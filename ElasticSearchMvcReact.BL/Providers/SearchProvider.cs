@@ -37,7 +37,7 @@ namespace ElasticSearchMvcReact.BL.Providers
 
             foreach (var m in t.GetProperties())
             {
-                if (m.GetCustomAttributes(typeof(Suggest), true).Length > 0)
+                if (m.GetCustomAttributes(typeof(TermSuggest), true).Length > 0)
                 {
                     fieldsToWorkOn.Add(m.Name);
                 }

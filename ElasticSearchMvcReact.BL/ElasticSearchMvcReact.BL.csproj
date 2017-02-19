@@ -55,7 +55,7 @@
     <Compile Include="ElasticSearchAttributes\Analyzer.cs" />
     <Compile Include="ElasticSearchAttributes\FieldType.cs" />
     <Compile Include="ElasticSearchAttributes\NotAnalyzed.cs" />
-    <Compile Include="ElasticSearchAttributes\Suggest.cs" />
+    <Compile Include="ElasticSearchAttributes\TermSuggest.cs" />
     <Compile Include="Managers\AnimalManager.cs" />
     <Compile Include="Managers\IAnimalManager.cs" />
     <Compile Include="DomainModel\Animal.cs" />
